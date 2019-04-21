@@ -1,4 +1,4 @@
 FROM alpine:3.9
 
-RUN apk add --no-cache --update binutils clang cmake file git libc-dev make su-exec
+RUN apk add --no-cache --update build-base clang cmake file git su-exec
 RUN chmod +s /sbin/su-exec
